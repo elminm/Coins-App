@@ -1,0 +1,9 @@
+.coins-grid {
+    width: 75%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 150px;
+    row-gap: 25px;
+}
+

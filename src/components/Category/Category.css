@@ -1,0 +1,22 @@
+.category h4 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.show-all {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.category img{
+    margin-top: 10px;
+    width: 214px;
+    height: 214px;
+}

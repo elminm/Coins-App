@@ -1,0 +1,27 @@
+.coin {
+    display: flex;
+    gap: 30px;
+}
+
+.coin img {
+    width: 120px;
+    height: 120px;
+}
+
+.coin .coin-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #833AE0;
+}
+
+.coin-title{
+    margin-bottom: 10px;
+}
+
+.coin-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125.5%;
+    color: #000000;
+}

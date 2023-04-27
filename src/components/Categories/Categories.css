@@ -1,0 +1,15 @@
+.categories {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-all {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    margin-bottom: 20px;
+}
+

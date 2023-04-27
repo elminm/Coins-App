@@ -1,0 +1,135 @@
+.header {
+    margin-top: 52px;
+}
+
+.header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 375px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+input,
+select {
+    height: 48px;
+}
+
+.search-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #833AE0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+input,
+button,
+select {
+    outline: none;
+}
+
+input,
+select {
+    border: 1px solid #000000;
+}
+
+input{
+    padding: 0 16px;
+}
+select{
+    padding: 0 10px;
+}
+
+.advanced-filter {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    text-decoration-line: underline;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.form-block {
+    margin-top: 25px;
+}
+
+.row-right-block {
+    display: flex;
+    gap: 15px;
+}
+
+span.from,
+span.to {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.advanced-filter{
+    display: flex;
+    align-items: center;
+}
+.arrowUp, .arrowDown{
+    margin-left: 5px;
+}
+
+input::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.breadcrumbs{
+    font-weight: 500;
+font-size: 14px;
+line-height: 109%;
+display: flex;
+align-items: center;
+color: #B1ABAB;
+}
+
+.breadcrumbs a {
+    color: #B1ABAB;
+}

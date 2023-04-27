@@ -1,0 +1,90 @@
+.coin-description-container {
+    margin: 48px auto;
+}
+
+.coin-description-wr {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.coin-description-wr img {
+    width: 300px;
+    height: 300px;
+}
+
+.coin-description {
+    padding: 0 40px;
+    background: rgba(196, 196, 196, 0.5);
+    padding-top: 20px;
+    height: 100%;
+    position: relative;
+}
+
+.coin-description .title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.left {
+    width: calc((100% / 12)*3);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.right {
+    width: calc((100% / 12)*4);
+}
+
+
+.back {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.table-description {
+    width: 100%;
+    margin-top: 25px;
+    display: -ms-inline-flexbox;
+}
+
+.table-description td {
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 105.2%;
+    color: #000000;
+    padding: 6px;
+}
+
+.table-description tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+
+/*
+    The display: table-row property prevents padding from having an effect.
+Try setting display to something other than table-row.
+*/
